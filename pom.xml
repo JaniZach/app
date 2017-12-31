@@ -83,6 +83,14 @@
             <version>1.0.18</version>
         </dependency>
 
+        <!-- spring boot热部署 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <!-- 这里optional表示该jar只给本项目使用，其他项目引用项目jar，不会引入该依赖 -->
+            <optional>true</optional>
+        </dependency>
+
     </dependencies>
 
     <build>

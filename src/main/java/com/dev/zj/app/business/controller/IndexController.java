@@ -1,7 +1,7 @@
-package com.dev.zj.business.controller;
+package com.dev.zj.app.business.controller;
 
-import com.dev.zj.business.domain.User;
-import com.dev.zj.business.service.UserService;
+import com.dev.zj.app.business.domain.User;
+import com.dev.zj.app.business.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

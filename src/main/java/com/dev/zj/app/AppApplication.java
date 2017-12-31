@@ -8,9 +8,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@ComponentScan(basePackages = {"com.dev.zj.business.controller"
-		,"com.dev.zj.business.service","com.dev.zj.common.manager"})
-@MapperScan("com.dev.zj.business.dao")
+@ComponentScan(basePackages = {"com.dev.zj.app.business.controller"
+		,"com.dev.zj.app.business.service","com.dev.zj.app.common.manager"})
+@MapperScan("com.dev.zj.app.business.dao")
 public class AppApplication {
 
 	public static void main(String[] args) {

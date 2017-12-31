@@ -1,4 +1,4 @@
-package com.dev.zj.common.manager;
+package com.dev.zj.app.common.manager;
 
 import org.springframework.stereotype.Component;
 

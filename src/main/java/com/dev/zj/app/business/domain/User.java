@@ -1,4 +1,4 @@
-package com.dev.zj.business.domain;
+package com.dev.zj.app.business.domain;
 
 import lombok.Getter;
 import lombok.Setter;
